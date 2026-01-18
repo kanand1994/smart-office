@@ -1,0 +1,22 @@
+﻿body { margin: 0; font-family: sans-serif; background: #f4f6f9; color: #333; }
+.login-container { display: flex; justify-content: center; align-items: center; height: 100vh; background: #2c3e50; }
+.login-card { background: white; padding: 2rem; border-radius: 8px; width: 350px; }
+.form-group { margin-bottom: 1rem; }
+.form-group input { width: 100%; padding: 0.75rem; box-sizing: border-box; }
+.login-btn { width: 100%; padding: 0.75rem; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.error-message { color: #e74c3c; text-align: center; margin-bottom: 1rem; }
+.navbar { display: flex; justify-content: space-between; background: #34495e; color: white; padding: 0 2rem; align-items: center; }
+.nav-links a { color: #ecf0f1; text-decoration: none; margin: 0 1rem; }
+.nav-links a.active { background: #2980b9; padding: 0.5rem; }
+.page-container { padding: 2rem; }
+.profile-card { display: flex; align-items: center; background: white; padding: 2rem; border-radius: 8px; gap: 2rem; }
+.profile-avatar { width: 100px; height: 100px; border-radius: 50%; }
+table { width: 100%; border-collapse: collapse; background: white; }
+th, td { padding: 1rem; border-bottom: 1px solid #eee; }
+.task-list { list-style: none; padding: 0; }
+.task-item { background: white; padding: 1rem; margin-bottom: 1rem; border-radius: 8px; }
+.logout-btn { background: #c0392b; color: white; border: none; padding: 0.5rem; border-radius: 4px; cursor: pointer; }
+.main-content { padding: 20px; }
+.dashboard-container { padding: 20px; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+.stat-card { background: white; padding: 1.5rem; border-radius: 8px; text-align: center; }
